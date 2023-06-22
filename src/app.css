@@ -1,0 +1,9 @@
+@import "@fontsource/fira-mono";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-blue-950 bg-sun-50;
+}
