@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.0.1",
   "scripts": {
-    "start": "BODY_SIZE_LIMIT=1000000000 ORIGIN=https://${RAILWAY_STATIC_URL} node build",
+    "start": "HOST=:: BODY_SIZE_LIMIT=1000000000 ORIGIN=https://${RAILWAY_STATIC_URL} node build",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
